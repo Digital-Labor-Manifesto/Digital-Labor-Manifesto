@@ -1,0 +1,14 @@
+title: "مانيفستو للعمل الرقمي"
+description: "مسودة مفتوحة لتطوير حقوق العاملات والعاملين في الاقتصاد الرقمي"
+lang: ar
+direction: rtl
+url: "https://digital-labor-manifesto.github.io"
+baseurl: "/Digital-Labor-Manifesto"
+repository_url: "https://github.com/Digital-Labor-Manifesto/Digital-Labor-Manifesto"
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - DEPLOYMENT.md
