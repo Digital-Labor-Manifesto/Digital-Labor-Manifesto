@@ -1,0 +1,21 @@
+name: Publish foundational manifesto v0.1
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-v0.1.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish v0.1 release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create v0.1 \
+            --repo "${{ github.repository }}" \
+            --target "${{ github.sha }}" \
+            --title "مانيفستو العمل الرقمي — الإصدار 0.1" \
+            --notes "النسخة التأسيسية الأولى من مانيفستو العمل الرقمي، وتشمل الرؤية السياسية والحقوقية والبرنامج التنفيذي المؤلف من 17 مطلبًا. هذا الإصدار هو المرجع الأساسي للمقارنة بالإصدارات المقبلة. للاطلاع على شرح النسخة: CHANGELOG.md."
