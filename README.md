@@ -6,34 +6,16 @@
 
 مسودة سياسية وحقوقية مفتوحة للنقاش والتطوير الجماعي حول حقوق العاملات والعاملين في الاقتصاد الرقمي في المنطقة العربية، وتنظيم العمل، والإدارة الخوارزمية، والحماية الاجتماعية، والملكية الديمقراطية للتكنولوجيا.
 
-## قراءة المانيفستو
+## اقرأ المانيفستو وشارك في تطويره
 
-- [النص الكامل](MANIFESTO.md)
-- [المساهمة في التحرير](CONTRIBUTING.md)
-- [فتح نقاش جديد](../../issues/new/choose)
-- [اقتراح تعديل على النص](MANIFESTO.md)
+**[اقرأ المانيفستو على الموقع](https://digital-labor-manifesto.github.io/Digital-Labor-Manifesto/)**
 
-## الموقع
+المانيفستو نص مفتوح للنقاش والتطوير الجماعي. يمكنك الاطلاع على محتواه، واقتراح تعديلاته، والمشاركة في النقاشات المتعلقة بحقوق العاملات والعاملين في الاقتصاد الرقمي.
 
-بعد تفعيل GitHub Pages للمستودع الحالي سيكون الرابط المتوقع:
-
-https://digital-labor-manifesto.github.io/Digital-Labor-Manifesto/
-
-الموقع يُبنى باستخدام Jekyll من ملف `MANIFESTO.md`. كل تعديل يُدمج في الفرع `main` يظهر في الموقع بعد نجاح عملية النشر، من دون نسخ النص داخل HTML.
-
-لتفعيله: **Settings → Pages → Source: Deploy from a branch → Branch: main → Folder: /(root) → Save**.
-
-**ملاحظة:** هذا المستودع اسمه `Digital-Labor-Manifesto`. إذا تغير اسمه لاحقًا إلى `Digital-Labor-Manifesto.github.io` فسيصبح الموقع الرئيسي `https://digital-labor-manifesto.github.io/`، ويلزم تعديل `_config.yml` بما يناسب المسار الجديد.
-
-## بنية المشروع
-
-- `MANIFESTO.md`: المصدر الوحيد لنص المانيفستو
-- `index.html`: قالب صفحة القراءة الذي يعرض Markdown تلقائيًا
-- `assets/css/site.css`: التصميم العربي RTL
-- `assets/js/site.js`: الفهرس والبحث وإعدادات القراءة
-- `_config.yml`: إعدادات GitHub Pages وJekyll
-- `CONTRIBUTING.md`: قواعد وآليات المساهمة
-- `.github/`: قوالب Issues وPull Requests
+- [النص الكامل على GitHub](MANIFESTO.md)
+- [اقترح تعديلًا على النص](https://github.com/Digital-Labor-Manifesto/Digital-Labor-Manifesto/edit/main/MANIFESTO.md)
+- [افتح نقاشًا أو قدّم مقترحًا](https://github.com/Digital-Labor-Manifesto/Digital-Labor-Manifesto/issues/new/choose)
+- [تعرّف على طريقة المساهمة](CONTRIBUTING.md)
 
 ## حقوق المحتوى
 
