@@ -32,6 +32,7 @@ layout: null
       </a>
       <nav class="header-nav" aria-label="روابط رئيسية">
         <a href="#manifesto-start">قراءة النص</a>
+        <a href="#releases">الإصدارات</a>
         <a href="#participate">كيف تساهم؟</a>
         <a class="header-cta" href="{{ site.repository_url }}/issues/new/choose" target="_blank" rel="noopener noreferrer">افتح نقاشًا <span aria-hidden="true">↗</span></a>
       </nav>
@@ -100,6 +101,36 @@ layout: null
 
       <div class="endmark" aria-hidden="true"><span></span> ✳ <span></span></div>
 
+      <section class="release-panel" id="releases" aria-labelledby="release-panel-title"
+               data-latest-release-api="https://api.github.com/repos/Digital-Labor-Manifesto/Digital-Labor-Manifesto/releases/latest">
+        <div class="release-panel-heading">
+          <span class="section-label">أرشيف المانيفستو</span>
+          <h2 id="release-panel-title">الإصدارات وتاريخ التغييرات</h2>
+          <p>لكل إصدار معتمد نسخة ثابتة يمكن الرجوع إليها، وتقرير يوثّق ما تغيّر في النص.</p>
+        </div>
+        <div class="release-panel-grid">
+          <div class="release-panel-current" aria-live="polite">
+            <span class="release-panel-label">آخر إصدار رسمي</span>
+            <strong class="release-panel-number" id="release-version" dir="ltr">…</strong>
+            <time class="release-panel-date" id="release-date">جارٍ التحقق من أحدث إصدار</time>
+            <a class="release-panel-report" id="release-report-link"
+               href="{{ site.repository_url }}/releases" target="_blank" rel="noopener noreferrer">استعرض تقارير الإصدارات ↗</a>
+          </div>
+          <nav class="release-panel-links" aria-label="روابط الإصدارات وتوثيق التغييرات">
+            <a href="{{ site.repository_url }}/releases" target="_blank" rel="noopener noreferrer">
+              <span>سجل الإصدارات</span><span aria-hidden="true">↗</span>
+            </a>
+            <a href="{{ site.repository_url }}/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer">
+              <span>سجل التغييرات</span><span aria-hidden="true">↗</span>
+            </a>
+            <a href="{{ site.repository_url }}/blob/main/VERSIONING.md" target="_blank" rel="noopener noreferrer">
+              <span>سياسة ترقيم الإصدارات</span><span aria-hidden="true">↗</span>
+            </a>
+          </nav>
+        </div>
+        <p class="release-panel-footnote">الموقع يعرض النص الجاري تطويره، وقد يتضمن تعديلات أحدث من آخر إصدار رسمي مرقّم.</p>
+      </section>
+
       <section class="participate" id="participate" aria-labelledby="participate-title">
         <div class="participate-overline">شارك في تطوير النص</div>
         <h2 id="participate-title">المانيفستو ليس نصًا مغلقًا.</h2>
@@ -118,6 +149,7 @@ layout: null
       <div><strong>مانيفستو للعمل الرقمي</strong><p>مسودة قابلة للقراءة والنقاش والتطوير بصورة جماعية.</p></div>
       <div class="footer-links">
         <a href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">المستودع</a>
+        <a href="#releases">الإصدارات</a>
         <a href="{{ site.repository_url }}/commits/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">تاريخ التعديلات</a>
         <a href="{{ site.repository_url }}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">دليل المساهمة</a>
         <a href="#top">العودة للأعلى ↑</a>
