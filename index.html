@@ -1,0 +1,153 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#202428">
+  <meta name="description" content="مسودة مانيفستو للعمل الرقمي: ضد الاستغلال الرأسمالي، ومن أجل تحرر العمل والسيطرة الديمقراطية على التكنولوجيا. نص مفتوح للنقاش والمساهمة.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ar_AR">
+  <meta property="og:title" content="مانيفستو للعمل الرقمي">
+  <meta property="og:description" content="ضد الاستغلال الرأسمالي ومن أجل تحرر العمل والسيطرة الديمقراطية على التكنولوجيا">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/">
+  <meta name="color-scheme" content="light dark">
+  <title>مانيفستو للعمل الرقمي | مسودة مفتوحة</title>
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+  <a href="#manifesto-start" class="skip-link">الانتقال مباشرة إلى المانيفستو</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="الصفحة الرئيسية للمانيفستو">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="brand-copy">مانيفستو <strong>العمل الرقمي</strong></span>
+      </a>
+      <nav class="header-nav" aria-label="روابط رئيسية">
+        <a href="#manifesto-start">قراءة النص</a>
+        <a href="#participate">كيف تساهم؟</a>
+        <a class="header-cta" href="{{ site.repository_url }}/issues/new/choose" target="_blank" rel="noopener noreferrer">افتح نقاشًا <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-ambient" aria-hidden="true"></div>
+    <div class="shell hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow"><span class="status-dot" aria-hidden="true"></span> مسودة سياسية وحقوقية مفتوحة للتطوير <span class="eyebrow-divider">/</span> المنطقة العربية</div>
+        <h1 id="hero-title">مانيفستو<br><span>للعمل الرقمي</span></h1>
+        <p class="hero-statement">ضد الاستغلال الرأسمالي ومن أجل تحرر العمل والسيطرة الديمقراطية على التكنولوجيا</p>
+        <div class="hero-actions">
+          <a class="btn btn-accent" href="#manifesto-start">اقرأ المانيفستو <span class="btn-arrow" aria-hidden="true">↓</span></a>
+          <a class="btn btn-ghost" href="{{ site.repository_url }}/edit/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">اقترح تعديلًا <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-grid"></div>
+        <div class="art-cross art-cross-a">+</div><div class="art-cross art-cross-b">+</div>
+        <span class="ring ring-outer"></span><span class="ring ring-middle"></span><span class="ring ring-inner"></span>
+        <div class="art-center"><span class="art-big">١٧</span><span class="art-sub">مطلبًا مشتركًا</span></div>
+        <div class="art-note">الحقوق · التنظيم · التكنولوجيا</div>
+      </div>
+    </div>
+    <div class="hero-footer shell">
+      <span><span class="small-circle"></span> نص مفتوح للنقاش والمراجعة</span>
+      <span>النسخة المنشورة تتبع آخر تعديل معتمد على GitHub</span>
+    </div>
+  </section>
+
+  <div class="scope-strip" aria-label="مجالات المانيفستو">
+    <div class="shell scope-inner">
+      <span>العمل والدخل</span><span class="sep" aria-hidden="true">✳</span>
+      <span>الإدارة الخوارزمية</span><span class="sep" aria-hidden="true">✳</span>
+      <span>حرية التنظيم</span><span class="sep" aria-hidden="true">✳</span>
+      <span>الملكية والسلطة</span><span class="sep" aria-hidden="true">✳</span>
+      <span>التضامن العابر للحدود</span>
+    </div>
+  </div>
+
+  <div class="shell main-grid">
+    <aside class="sidebar" aria-label="فهرس المانيفستو">
+      <div class="side-panel">
+        <div class="side-top">
+          <span class="section-label">خريطة النص</span>
+          <button class="side-toggle" id="side-toggle" aria-expanded="false" aria-controls="toc" type="button"><span>عرض الفهرس</span><span class="chevron" aria-hidden="true">⌄</span></button>
+        </div>
+        <p class="sidebar-caption">تنقّل بين أقسام المانيفستو ومطالبه.</p>
+        <nav class="toc" id="toc" aria-label="الانتقال إلى أقسام المانيفستو"></nav>
+      </div>
+      <div class="side-participate">
+        <span class="side-redline" aria-hidden="true"></span>
+        <strong>هذا النص قابل للتطوير</strong>
+        <p>يمكنك مراجعة أي فقرة واقتراح تعديل، وتتبّع المناقشات والتغييرات السابقة.</p>
+        <a href="{{ site.repository_url }}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">دليل المساهمة <span aria-hidden="true">↗</span></a>
+      </div>
+    </aside>
+
+    <main class="main-column" id="main">
+      <div class="reader-intro">
+        <div><span class="section-label">اقرأ وناقش وشارك</span><h2>نص المانيفستو</h2><p>النص الكامل كما هو منشور في المستودع. تُعرض التعديلات بعد اعتمادها ودمجها في الفرع الرئيسي.</p></div>
+        <span class="edition-mark" aria-hidden="true">01 / <em>النسخة الحية</em></span>
+      </div>
+      <div class="reader-tools" aria-label="أدوات القراءة">
+        <div class="search-area">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+          <label class="sr-only" for="manifesto-search">ابحث داخل المانيفستو</label>
+          <input id="manifesto-search" autocomplete="off" type="search" placeholder="ابحث داخل النص…" aria-describedby="search-status">
+        </div>
+        <span id="search-status" class="search-status" role="status" aria-live="polite"></span>
+        <div class="tool-buttons">
+          <button type="button" class="icon-button" id="font-minus" title="تصغير الخط" aria-label="تصغير الخط">أ−</button>
+          <button type="button" class="icon-button" id="font-plus" title="تكبير الخط" aria-label="تكبير الخط">أ+</button>
+          <span class="tool-divider" aria-hidden="true"></span>
+          <button type="button" class="icon-button theme-button" id="theme-toggle" aria-label="تبديل المظهر الداكن" title="تبديل المظهر الداكن" aria-pressed="false"><span class="theme-symbol" aria-hidden="true">◐</span></button>
+          <button type="button" class="icon-button" id="print-button" aria-label="طباعة النص أو حفظه PDF" title="طباعة النص أو حفظه PDF">⎙</button>
+        </div>
+      </div>
+      <div class="source-note">
+        <span class="note-symbol" aria-hidden="true">i</span>
+        <p>هذه <strong>مسودة مفتوحة للمناقشة</strong>. الاقتراحات المنشورة في GitHub لا تغيّر نص الموقع حتى تُراجع وتُدمج في <code>main</code>. <a href="{{ site.repository_url }}/commits/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">اطّلع على سجل التعديلات <span aria-hidden="true">↗</span></a>.</p>
+      </div>
+
+      <article id="manifesto-start" class="manifesto-prose" aria-label="النص الكامل للمانيفستو">
+        {% capture manifesto_text %}{% include_relative MANIFESTO.md %}{% endcapture %}
+        {{ manifesto_text | markdownify }}
+      </article>
+
+      <div class="endmark" aria-hidden="true"><span></span> ✳ <span></span></div>
+
+      <section class="participate" id="participate" aria-labelledby="participate-title">
+        <div class="participate-overline">شارك في تطوير النص</div>
+        <h2 id="participate-title">المانيفستو ليس نصًا مغلقًا.</h2>
+        <p>يمكنك اقتراح تعديلات لغوية أو موضوعية، وإضافة مصادر، ومناقشة المطالب مع الآخرين. لا يُعتمد أي تغيير إلا بعد مراجعته ودمجه، وتظل النسخ السابقة متاحة عبر سجل GitHub.</p>
+        <div class="participate-actions">
+          <a class="btn btn-dark" href="{{ site.repository_url }}/edit/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">اقترح تعديلًا على النص <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline" href="{{ site.repository_url }}/issues/new/choose" target="_blank" rel="noopener noreferrer">ناقش فكرة أو مطلبًا <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="participate-footnote">تتطلب المساهمة المباشرة على GitHub إنشاء حساب. <a href="{{ site.repository_url }}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">اطلع على إرشادات المشاركة</a>.</div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="shell footer-top">
+      <div><strong>مانيفستو للعمل الرقمي</strong><p>مسودة قابلة للقراءة والنقاش والتطوير بصورة جماعية.</p></div>
+      <div class="footer-links">
+        <a href="{{ site.repository_url }}" target="_blank" rel="noopener noreferrer">المستودع</a>
+        <a href="{{ site.repository_url }}/commits/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">تاريخ التعديلات</a>
+        <a href="{{ site.repository_url }}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">دليل المساهمة</a>
+        <a href="#top">العودة للأعلى ↑</a>
+      </div>
+    </div>
+    <div class="shell footer-bottom"><span>المحتوى يُقرأ مباشرة من الملف <code>MANIFESTO.md</code> عند نشر الموقع.</span><span>الموقع دون خدمات تتبع أو مكتبات خارجية.</span></div>
+  </footer>
+</body>
+</html>
