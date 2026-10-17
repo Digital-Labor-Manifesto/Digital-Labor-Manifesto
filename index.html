@@ -93,30 +93,6 @@ layout: null
     </aside>
 
     <main class="main-column" id="main">
-      <div class="reader-intro">
-        <div><span class="section-label">اقرأ وناقش وشارك</span><h2>نص المانيفستو</h2><p>النص الكامل كما هو منشور في المستودع. تُعرض التعديلات بعد اعتمادها ودمجها في الفرع الرئيسي.</p></div>
-        <span class="edition-mark" aria-hidden="true">01 / <em>النسخة الحية</em></span>
-      </div>
-      <div class="reader-tools" aria-label="أدوات القراءة">
-        <div class="search-area">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
-          <label class="sr-only" for="manifesto-search">ابحث داخل المانيفستو</label>
-          <input id="manifesto-search" autocomplete="off" type="search" placeholder="ابحث داخل النص…" aria-describedby="search-status">
-        </div>
-        <span id="search-status" class="search-status" role="status" aria-live="polite"></span>
-        <div class="tool-buttons">
-          <button type="button" class="icon-button" id="font-minus" title="تصغير الخط" aria-label="تصغير الخط">أ−</button>
-          <button type="button" class="icon-button" id="font-plus" title="تكبير الخط" aria-label="تكبير الخط">أ+</button>
-          <span class="tool-divider" aria-hidden="true"></span>
-          <button type="button" class="icon-button theme-button" id="theme-toggle" aria-label="تبديل المظهر الداكن" title="تبديل المظهر الداكن" aria-pressed="false"><span class="theme-symbol" aria-hidden="true">◐</span></button>
-          <button type="button" class="icon-button" id="print-button" aria-label="طباعة النص أو حفظه PDF" title="طباعة النص أو حفظه PDF">⎙</button>
-        </div>
-      </div>
-      <div class="source-note">
-        <span class="note-symbol" aria-hidden="true">i</span>
-        <p>هذه <strong>مسودة مفتوحة للمناقشة</strong>. الاقتراحات المنشورة في GitHub لا تغيّر نص الموقع حتى تُراجع وتُدمج في <code>main</code>. <a href="{{ site.repository_url }}/commits/main/MANIFESTO.md" target="_blank" rel="noopener noreferrer">اطّلع على سجل التعديلات <span aria-hidden="true">↗</span></a>.</p>
-      </div>
-
       <article id="manifesto-start" class="manifesto-prose" aria-label="النص الكامل للمانيفستو">
         {% capture manifesto_text %}{% include_relative MANIFESTO.md %}{% endcapture %}
         {{ manifesto_text | markdownify }}
