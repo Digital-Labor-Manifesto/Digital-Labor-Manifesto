@@ -1,0 +1,26 @@
+# Group automatically generated notes for the manifesto by editorial impact.
+# PRs should be labelled before each release; unlabelled PRs go under Other.
+changelog:
+  exclude:
+    labels:
+      - skip-release-notes
+  categories:
+    - title: "تغييرات في المواقف والمطالب"
+      labels:
+        - policy-change
+        - demand-change
+    - title: "إضافات وتوسعات في النص"
+      labels:
+        - content-addition
+    - title: "توضيحات وتحسينات تحريرية"
+      labels:
+        - clarification
+        - editorial
+        - correction
+    - title: "تطوير الموقع ووثائق المشروع"
+      labels:
+        - site-only
+        - documentation
+    - title: "تغييرات أخرى"
+      labels:
+        - "*"
